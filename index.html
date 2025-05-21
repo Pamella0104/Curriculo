@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currículo</title>
+  <link rel="shortcut icon" href="applicant.png" type="image/x-icon" />
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+      <h1>PAMELLA MACEDO</h1>
+      <p>Desenvolvedora Web (front-end)</p>
+    </header>
+  <main>
+        <article>
+            <h2>Sobre mim</h2>
+            <p id="sobre" contenteditable="true">Atualmente, estou cursando Desenvolvimento de Aplicativos e Programador Master pela EDUNE. Além disso, estou expandindo meus conhecimentos por meio de um curso de desenvolvimento pelo Torna-se um Programador e participando da Imersão Front-End da Alura (Rocketseat). Sou graduada em Análise e Desenvolvimento de Sistemas (ADS) e busco oportunidades para aprimorar meus conhecimentos por meio de projetos reais. Tenho facilidade em aprender novas tecnologias e estou comprometida em construir uma carreira sólida na área de desenvolvimento.</p>
+            <button onclick="salvarTexto('sobre')">Salvar</button>
+
+        <h2>Experiência</h2>
+        <p id="experiencia" contenteditable="true">estou em constante evolução como desenvolvedora web, com foco em HTML e CSS, JavaScript . Estou realizando um projeto prático em colaboração com os professores da Alura, o que tem me permitido aplicar diretamente os conceitos aprendidos em um ambiente desafiador. Além disso, continuo me especializando por meio de cursos como Desenvolvimento de Aplicativos, Programador Master, e Imersão Front-End.
+        Estou comprometida em aprofundar meus conhecimentos e adquirir experiência prática em projetos reais para impulsionar minha carreira na área de desenvolvimento.</p>
+        <button onclick="salvarTexto('experiencia')">Salvar</button>
+
+        <h2>Habilidades</h2>
+        <ul>
+          <li>Organização</li>
+          <li>Proatividade</li>
+          <li>Trabalho em equipe</li>
+          <li>Confiabilidade</li>
+        </ul>
+        <ul>
+          <li>Adaptabilidade</li>
+          <li>Observadora</li>
+          <li>Comprometimento</li>
+          <li>Facilidade de aprender</li>
+        </ul>
+
+        <h2>Certificações</h2>
+        <ul>
+          <li>Fundamentos de Computação - Instituto Federal do RS</li>
+          <li>Lógica de Programação - Instituto Federal do RS</li>
+          <li>Comunicação e Atendimento ao Cliente - Instituto Federal do RS</li>
+          <li>Desenvolvedor de Aplicativos - EDUNE</li>
+          <li>HTML e CSS - Alura (Rocketseat)</li>
+        </ul>
+
+        <h2>Formação Acadêmica</h2>
+        <ul>
+          <li>Graduação em Análise e Desenvolvimento de Sistemas (ADS)</li>
+        </ul>
+
+        <section>
+          <h2>Comentário</h2>
+          <textarea id="comentario" placeholder="Digite aqui..."></textarea><br>
+          <button onclick="salvarComentario()">Salvar</button>
+          <p id="mostrarComentario"></p>
+        </section>
+     </article>
+     </main>
+
+    <footer class="rodape">
+      <div class="social-icons">
+        <a href="https://github.com/Pamella0104" target="_blank" aria-label="Github">
+          <i class="fa-brands fa-github fa-lg"style="color: #101875e1;"></i> Github
+        </a>
+        <a href="https://www.linkedin.com/in/pamella-macedo-772b302b1/" target="_blank" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin fa-lg"style="color: #101875e1"></i> LinkedIn
+        </a>
+      </div>
+      <button id="darkMode" title="Alternar entre modo escuro e claro">Modo Escuro</button>
+    </footer>
+</body>
+</html>
+
